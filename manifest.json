@@ -1,0 +1,11 @@
+{
+    "name": "Speech Input",
+    "version": "0.1",
+    "description": "Add speech-to-text to every input field!",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["jquery-1.6.4.min.js", "speech_input.js"]
+        }
+    ]
+}
